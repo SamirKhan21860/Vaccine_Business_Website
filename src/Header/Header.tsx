@@ -1,7 +1,7 @@
 const Header = () => {
   return (
     <>
-      <div className="Header">
+      <header className="Header">
         <div className="logo">
             <img src="/logowithtext.svg" alt="logo" />
         </div>
@@ -15,7 +15,7 @@ const Header = () => {
         <div>
             <button>Call Center</button>
         </div>
-      </div>
+      </header>
     </>
   );
 };
