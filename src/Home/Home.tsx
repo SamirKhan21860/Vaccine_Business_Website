@@ -4,43 +4,47 @@ const Home = () => {
     return (
       <div className="mx-28">
         <Header />
-        <div className="landing">
+        <div className="landing flex justify-between ">
           <div className="">
-            <div className="round-tip bg-blue-400 rounded-full p-2 inline-flex">
+            <div className="round-tip mt-16 bg-blue-100 rounded-full p-2 inline-flex">
               <img
                 src="/injectionOrange.svg"
                 alt="injection"
-                className="w-6 mx-3"
+                className="w-5 mx-2"
               />
-              <span className="mr-4 text-white">
+              <span className="mr-4 text-blue-400 font-medium text-sm">
                 don&apos;t be upset, let&apos;s get vaccinated
               </span>
             </div>
-            <h1 className="text-7xl">
-              With Vaccination We Can End This Pandemic
+            <h1 className="text-blue-950 text-7xl font-bold mt-2">
+              <div className="mb-3">With Vaccination</div>
+              <div className="mb-3">We Can End This</div>
+              <div className="mb-3">Pandemic</div>
             </h1>
-            <p>With vaccination, we can reduce the number of</p>
-            <p>Covid-19 transmission, and can create herd immunity</p>
-            <div className="bg-[#113165] p-4 text-white font-semibold rounded-full inline-block">
+            <div className="mt-5 text-gray-400 text-2xl">
+              <p>With vaccination, we can reduce the number of</p>
+              <p>Covid-19 transmission, and can create herd immunity</p>
+            </div>
+            <div className="bg-[#113165] shadow-2xl shadow-blue-950 p-4 mt-16 px-6 text-white font-semibold rounded-full inline-block">
               <button className="">Make Appointment</button>
             </div>
           </div>
-          <div>
-            <img src="/heroimg.png" alt="vaccine" />
+          <div className="">
+            <img src="/heroimg.png" alt="vaccine" className="w-[800px] mt-5"/>
           </div>
         </div>
-        <div className="companies">
-          <div>
-            <img src="/company-1.svg" alt="" />
-          </div>
+        <div className="companies flex justify-between mb-32">
           <div>
             <img src="/company-2.svg" alt="" />
           </div>
           <div>
-            <img src="/company-3.svg" alt="" />
+            <img src="/company-3.svg" alt=""/>
           </div>
           <div>
             <img src="/company-4.svg" alt="" />
+          </div>
+          <div>
+            <img src="/company-1.svg" alt="" />
           </div>
         </div>
         <div className="build-immunity">

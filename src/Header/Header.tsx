@@ -22,7 +22,7 @@ const Header = () => {
           </ul>
         </div>
         <div className="">
-          <button className="shadow-2xl shadow-blue-900 px-4 py-2 bg-blue-950 text-white rounded-full">
+          <button className="shadow-2xl font-semibold shadow-blue-900 px-4 py-2 bg-blue-950 text-white rounded-full">
             Call Center
           </button>
         </div>
