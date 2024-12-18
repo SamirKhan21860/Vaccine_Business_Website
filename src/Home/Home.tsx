@@ -2,13 +2,19 @@ import Header from "../Header/Header";
 
 const Home = () => {
     return (
-      <>
+      <div className="mx-28">
         <Header />
         <div className="landing">
-          <div>
-            <div className="round-tip">
-              <img src="/injectionOrange.svg" alt="injection" />
-              <span>don&apos;t be upset, let&apos;s get vaccinated</span>
+          <div className="">
+            <div className="round-tip bg-blue-400 rounded-full p-2 inline-flex">
+              <img
+                src="/injectionOrange.svg"
+                alt="injection"
+                className="w-6 mx-3"
+              />
+              <span className="mr-4 text-white">
+                don&apos;t be upset, let&apos;s get vaccinated
+              </span>
             </div>
             <h1 className="text-7xl">
               With Vaccination We Can End This Pandemic
@@ -96,20 +102,20 @@ const Home = () => {
                 people can receive COVID-19 vaccines. These locations are spread
                 across various states and cities.
               </p>
-            <div className="products-description">
-              <img src="/injection-product.svg" alt="" />
-              <p>
-                Vaccines that have been tested by several experimental animals
-              </p>
-              <img src="/capsol-product.svg" alt="" />
-              <p>
-                Vaccines that has been tested in a lab step by step and in
-                detail
-              </p>
-            </div>
-            <div className="provide-vaccine-img">
-              <img src="/provide-vacc-img.png" alt="" />
-            </div>
+              <div className="products-description">
+                <img src="/injection-product.svg" alt="" />
+                <p>
+                  Vaccines that have been tested by several experimental animals
+                </p>
+                <img src="/capsol-product.svg" alt="" />
+                <p>
+                  Vaccines that has been tested in a lab step by step and in
+                  detail
+                </p>
+              </div>
+              <div className="provide-vaccine-img">
+                <img src="/provide-vacc-img.png" alt="" />
+              </div>
             </div>
           </div>
         </div>
@@ -122,7 +128,7 @@ const Home = () => {
           <img src="/map-img.png" alt="" />
         </div>
         <footer className="footer"></footer>
-      </>
+      </div>
     );
 }
 
