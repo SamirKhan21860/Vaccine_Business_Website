@@ -16,10 +16,12 @@ const Home = () => {
                 don&apos;t be upset, let&apos;s get vaccinated
               </span>
             </div>
-            <h1 className="text-blue-950 text-7xl font-bold mt-2">
-              <div className="mb-3">With Vaccination</div>
-              <div className="mb-3">We Can End This</div>
-              <div className="mb-3">Pandemic</div>
+            <h1 className="text-blue-950 text-7xl leading-snug font-bold mt-2">
+              With Vaccination
+              <br />
+              We Can End This
+              <br />
+              Pandemic
             </h1>
             <div className="mt-5 text-gray-400 text-2xl">
               <p>With vaccination, we can reduce the number of</p>
@@ -30,7 +32,7 @@ const Home = () => {
             </div>
           </div>
           <div className="">
-            <img src="/heroimg.png" alt="vaccine" className="w-[800px] mt-5"/>
+            <img src="/heroimg.png" alt="vaccine" className="w-[800px] mt-5" />
           </div>
         </div>
         <div className="companies flex justify-between mb-32">
@@ -38,7 +40,7 @@ const Home = () => {
             <img src="/company-2.svg" alt="" />
           </div>
           <div>
-            <img src="/company-3.svg" alt=""/>
+            <img src="/company-3.svg" alt="" />
           </div>
           <div>
             <img src="/company-4.svg" alt="" />
@@ -49,8 +51,11 @@ const Home = () => {
         </div>
         <div className="build-immunity">
           <div className="wrapper">
-            <div className="content">
-              <h2>Why do you have to vaccinate?</h2>
+            <div className="content ">
+              <h2 className="text-6xl font-bold ">
+                Why do you have to
+                <br /> vaccinate?
+              </h2>
               <p>
                 There are three important reasons why you should vaccinate,
                 which we describe as follows: Diam augue purus est egetinterdum
