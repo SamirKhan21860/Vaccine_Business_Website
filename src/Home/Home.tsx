@@ -6,7 +6,7 @@ const Home = () => {
     <>
       <div className="mx-6 md:mx-28">
         <Header />
-        <div className="landing flex justify-between flex-col md:flex-row">
+        <div className="landing flex md:gap-52 justify-between flex-col md:flex-row">
           <div className="">
             <div className="round-tip mt-16 bg-blue-100 rounded-full p-2 inline-flex items-center group">
               <img
@@ -19,7 +19,7 @@ const Home = () => {
               </span>
             </div>
             <h1 className="text-blue-950 text-[34px] text-center md:text-start md:text-7xl leading-snug font-bold mt-2">
-              With Vaccination We Can End This Pandemic
+              With&nbsp;Vaccination <br />We Can End This<br/> Pandemic
             </h1>
             <div className="mt-5 text-gray-400 text-center md:text-start font-semibold md:font-medium text-xs md:text-2xl">
               <p>With vaccination, we can reduce the number of</p>
@@ -27,7 +27,11 @@ const Home = () => {
             </div>
           </div>
           <div className="flex justify-center">
-            <img src="/heroimg.png" alt="vaccine" className="min-w-[370px] md:min-w-[800px] mt-5" />
+            <img
+              src="/heroimg.png"
+              alt="vaccine"
+              className="min-w-[370px] md:min-w-[800px] mt-5"
+            />
           </div>
         </div>
         <div className="flex md:block">
@@ -35,7 +39,7 @@ const Home = () => {
             <button className="">Make Appointment</button>
           </div>
         </div>
-        <div className="companies flex justify-between mb-32">
+        <div className="companies flex justify-between mb-16 md:mb-32 gap-5">
           <div>
             <img src="/company-2.svg" alt="" />
           </div>
@@ -51,12 +55,12 @@ const Home = () => {
         </div>
         <div className="build-immunity">
           <div className="wrapper">
-            <div className="content flex justify-between gap-48">
-              <h2 className="text-blue-950 text-6xl font-bold leading-snug">
+            <div className="content text-center md:text-left flex flex-col md:flex-row justify-between md:gap-48">
+              <h2 className="text-blue-950 text-2xl md:text-6xl font-bold leading-snug ">
                 Why do you have to
                 <br /> vaccinate?
               </h2>
-              <p className="mt-5 text-gray-400 text-2xl">
+              <p className="mt-5 text-gray-400 text-xs md:text-2xl">
                 There are three important reasons why you should vaccinate,
                 <br />
                 which we describe as follows: Diam augue purus est
