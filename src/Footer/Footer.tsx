@@ -36,7 +36,7 @@ const Footer = () => {
         <div className="bg-black py-64 text-gray-300 font-semibold flex justify-center">
           <div className="absolute bottom-20 mx-32 space-x-72 grid grid-flow-col items-center mb-10">
             <div className="">
-              <img src="/public/logowithtext64x64.svg" alt="Vaccine logo" />
+              <img src="/logowithtext64x64.svg" alt="Vaccine logo" />
             </div>
             <div className="text-lg">
               <ul className="nav-links flex space-x-10">
