@@ -26,12 +26,8 @@ const Header = () => {
             Call Center
           </button>
         </div>
-        <div className="menu md:hidden">
-          <svg
-            className="w-6 h-6 fill-current text-black"
-            xmlns="http://www.w3.org/2000/svg"
-            viewBox="0 0 24 24"
-          ></svg>
+        <div className="block md:hidden">
+          <img src="/menu.svg" alt="menu" />
         </div>
       </header>
     </>
